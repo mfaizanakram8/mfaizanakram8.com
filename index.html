@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="faizan sable, portfolio, faizan, full stack dev, personal portfolio lifecodes, portfolio design, portfolio website, personal portfolio" />
+    <meta name="description" content="Welcome to Faizan's Portfolio. Full-Stack web and App Developer" />
+    
+    <!-- Tailwind CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!-- Favicon -->
+    <link id='favicon' rel="shortcut icon" href="./assets/images/heroc.png" type="image/x-png">
+    <link href="/YOUR_PATH/favicon.ico" rel="icon" type="image/x-icon">
+    
+    <title>Muhammad Faizan Akram</title>
+
+    <style>
+    
+        .bg-gray-900 {
+            background-color: #2a4365; 
+        }
+        .bg-gray-800 {
+            background-color: #2c5282; 
+        }
+        .bg-gray-700 {
+            background-color: #2b6cb0;
+        }
+
+        .text-gray-400 {
+            color: #cbd5e0; 
+        }
+
+    
+        .hover\:text-yellow-400:hover {
+            color: #e2e8f0;
+        }
+
+        .hover\:bg-yellow-500:hover {
+            background-color: #63b3ed; 
+        }
+
+        .text-yellow-400 {
+            color: #bee3f8; 
+        }
+        
+        .bg-yellow-400 {
+            background-color: #4299e1; 
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-white antialiased" oncontextmenu="return false">
+
+<!-- Navbar starts -->
+<header class="fixed w-full bg-gray-800 text-white py-4 shadow-md z-50">
+    <div class="container mx-auto flex justify-between items-center px-6">
+        <div class="flex items-center">
+            <img src="faizan.png" class="w-9 h-9 mr-4 rounded-full" alt="Logo">
+            <h2 class="text-xl font-semibold">Muhammad Faizan Akram</h2>
+        </div>
+        <nav class="hidden md:flex space-x-8 text-sm font-medium">
+            <a class="hover:text-yellow-400 transition" href="#home">Home</a>
+            <a class="hover:text-yellow-400 transition" href="#about">About</a>
+            <a class="hover:text-yellow-400 transition" href="#skills">Skills</a>
+            <a class="hover:text-yellow-400 transition" href="#work">Code</a>
+            <a class="hover:text-yellow-400 transition" href="#experience">Experience</a>
+        </nav>
+        <div id="menu" class="md:hidden text-2xl">
+            <i class="fas fa-bars"></i>
+        </div>
+    </div>
+</header>
+<!-- Navbar ends -->
+
+<!-- Hero section starts -->
+<section id="home" class="h-screen flex items-center justify-center bg-cover bg-center relative" style="background-image: url('gif1.gif');">
+    <div id="particles-js" class="absolute inset-0"></div>
+    <div class="relative z-10 text-center">
+        <h2 class="text-4xl md:text-6xl font-bold">Hi There,<br/> <span class="text-yellow-400">I</span>'m Muhammad Faizan <span class="text-yellow-400">Akram</span></h2>
+        <p class="mt-4 text-lg md:text-xl">I am into <span class="typing-text"></span></p>
+        <a href="#about" class="inline-block mt-6 px-6 py-3 bg-yellow-400 text-gray-900 rounded-lg shadow-md hover:bg-yellow-500 transition">
+            About Me <i class="fas fa-arrow-circle-down ml-2"></i>
+        </a>
+        <div class="mt-8 flex justify-center space-x-4">
+            <a aria-label="GitHub" href="https://github.com/mfaizanakram8" target="_blank" class="text-gray-400 hover:text-yellow-400 transition"><img width="48" height="48" src="https://img.icons8.com/nolan/64/github.png" alt="github"/></a>
+            <a aria-label="Twitter" href="https://x.com/Mfaizanakram8 target="_blank" class="text-gray-400 hover:text-yellow-400 transition"><img width="48" height="48" src="https://img.icons8.com/color/48/twitter--v1.png" alt="twitter--v1"/></a>
+            <a aria-label="Instagram" href="https://www.instagram.com/akram.mfaizan/" target="_blank" class="text-gray-400 hover:text-yellow-400 transition"><img width="48" height="48" src="https://img.icons8.com/color/48/instagram-new--v1.png" alt="instagram-new--v1"/></a>
+          
+            <a aria-label="LinkedIn" href="https://www.linkedin.com/in/muhammad-farhan-akram-553b8218a" target="_blank" class="text-gray-400 hover:text-yellow-400 transition"><img width="48" height="48" src="https://img.icons8.com/nolan/64/linkedin.png" alt="linkedin"/></a>
+
+    </div>
+</section>
+<!-- Hero section ends -->
+
+<!-- About section starts -->
+<section id="about" class="py-16 bg-gray-800">
+    <div class="container mx-auto px-6">
+        <h2 class="text-3xl font-bold text-center mb-12"><i class="fas fa-user-alt"></i> About <span class="text-yellow-400">Me</span></h2>
+        <div class="flex flex-col md:flex-row items-center">
+            <div class="md:w-1/2 mb-8 md:mb-0">
+                <img src="faizan.png" class="rounded-lg shadow-lg" alt="Profile Picture">
+            </div>
+            <div class="md:w-1/2 md:ml-12">
+                <h3 class="text-2xl font-semibold">I'm Muhammad Faizan Akram</h3>
+                <span class="block mt-2 mb-6 text-yellow-400 font-medium">Full Stack web Developer</span>
+                <p class="text-gray-400 mb-6">
+                    I am a Full-Stack web developer based in Pakistan, currently pursuing a Bachelor's degree in Computer Science from KFUEIT. I am deeply passionate about honing my coding skills and developing innovative  websites. Alongside my full-stack web development work, I am exploring AI generative models and their potential.  I am continually focused on self-improvement and refining my technical abilities. I enjoy creating Full-Stack clones to sharpen my expertise and stay ahead in the ever-evolving tech landscape.
+                </p>
+                <div class="flex items-center mb-6">
+                    <span class="text-yellow-400 mr-4"><i class="fas fa-envelope"></i></span>
+                    <p>mfaizanakram536@gmail.com</p>
+                </div>
+                <a href="#skills" class="inline-block px-6 py-3 bg-yellow-400 text-gray-900 rounded-lg shadow-md hover:bg-yellow-500 transition">
+                    Skills <i class="fas fa-arrow-circle-down ml-2"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- About section ends -->
+
+<!-- Skills section starts -->
+<section id="skills" class="py-16 bg-gray-900">
+    <div class="container mx-auto px-6">
+        <h2 class="text-3xl font-bold text-center mb-12"><i class="fas fa-laptop-code"></i> Skills & <span class="text-yellow-400">Abilities</span></h2>
+        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+            <div class="flex flex-col items-center">
+                <img src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/000000/external-react-a-javascript-library-for-building-user-interfaces-logo-color-tal-revivo.png" alt="ReactJS" class="mb-4">
+                <span>ReactJS</span>
+            </div>
+       
+            <div class="flex flex-col items-center">
+                <img src="https://img.icons8.com/color/48/000000/nodejs.png" alt="NodeJS" class="mb-4">
+                <span>NodeJS</span>
+            </div>
+       
+           
+            <div class="flex flex-col items-center">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/48px-Tailwind_CSS_Logo.png" alt="TailwindCSS" class="mb-4">
+                <span>TailwindCSS</span>
+            </div>
+            <div class="flex flex-col items-center">
+                <img src="https://img.icons8.com/color/48/000000/bootstrap.png" alt="Bootstrap" class="mb-4">
+                <span>Bootstrap</span>
+            </div>
+           
+            <div class="flex flex-col items-center">
+                <img src="https://img.icons8.com/color/48/000000/html-5--v1.png" alt="HTML5" class="mb-4">
+                <span>HTML5</span>
+            </div>
+            <div class="flex flex-col items-center">
+                <img src="https://img.icons8.com/color/48/000000/css3.png" alt="CSS3" class="mb-4">
+                <span>CSS3</span>
+            </div>
+            <div class="flex flex-col items-center">
+                <img src="https://img.icons8.com/color/48/000000/javascript--v1.png" alt="JavaScript" class="mb-4">
+                <span>JavaScript</span>
+            </div>
+       
+            <div class="flex flex-col items-center">
+                <img src="https://img.icons8.com/offices/48/000000/php-logo.png" alt="PHP" class="mb-4">
+                <span>PHP</span>
+            </div>
+         
+     
+       
+            <div class="flex flex-col items-center">
+                <img src="https://img.icons8.com/color/48/000000/amazon-web-services.png" alt="AWS" class="mb-4">
+                <span>AWS</span>
+            </div>
+         
+          
+          
+            <div class="flex flex-col items-center">
+                <img src="https://img.icons8.com/color/48/000000/git.png" alt="Git VCS" class="mb-4">
+                <span>Git VCS</span>
+            </div>
+            <div class="flex flex-col items-center">
+                <img src="https://img.icons8.com/glyph-neue/48/ffffff/github.png" alt="GitHub" class="mb-4">
+                <span>GitHub</span>
+            </div>
+            <div class="flex flex-col items-center">
+                <img src="https://img.icons8.com/color/48/000000/wordpress.png" alt="WordPress" class="mb-4">
+                <span>WordPress</span>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Skills section ends -->
+
+<!-- Work/Projects section starts -->
+<section id="work" class="py-16 bg-gray-800">
+    <div class="container mx-auto px-6">
+        <h2 class="text-3xl font-bold text-center mb-12 text-yellow-400"><i class="fas fa-laptop-code"></i> <span>Code</span></h2>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Project 1 -->
+            <div class="bg-gray-700 rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition">
+                <img src="sn.jfif" alt="next.js" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <h3 class="text-xl font-semibold text-white mb-2">Next.js</h3>
+                    <p class="text-gray-400 mb-4">Next.js is a popular React framework,like-side rendering (SSR), static site generation (SSG), API routes</p>
+                    <a href="next.js.html" class="text-yellow-400 hover:underline">Code <i class="fas fa-code ml-2"></i></a>
+                </div>
+            </div>
+            <!-- Project 2 -->
+            <div class="bg-gray-700 rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition">
+                <img src="an.png" alt="AngularJS Chat" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <h3 class="text-xl font-semibold text-white mb-2">Amazon</h3>
+                    <p class="text-gray-400 mb-4">clone, highly customize with css same like orignal</p>
+                    <a href="Amazon.html" class="text-yellow-400 hover:underline">Code <i class="fas fa-code ml-2"></i></a>
+                </div>
+            </div>
+            <!-- Project 3 -->
+            <div class="bg-gray-700 rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition">
+                <img src="ai.png" alt="Tailwind CSS" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <h3 class="text-xl font-semibold text-white mb-2">Tallwind css</h3>
+                    <p class="text-gray-400 mb-4">highly customizable,CSS frameworks like Bootstrap, which provide pre-built components,</p>
+                    <a href="index.html" class="text-yellow-400 hover:underline">Code <i class="fas fa-code ml-2"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="text-center mt-12">
+            <a href="https://github.com/mfaizanakram8" class="inline-block px-6 py-3 bg-yellow-400 text-gray-900 rounded-lg shadow-md hover:bg-yellow-500 transition">
+                More on GitHub <i class="fas fa-arrow-right ml-2"></i>
+            </a>
+        </div>
+    </div>
+</section>
+<!-- Work/Projects section ends -->
+
+
+<!-- Experience section starts -->
+<section id="experience" class="py-16 bg-gray-900">
+    <div class="container mx-auto px-6">
+        <h2 class="text-3xl font-bold text-center mb-12"><i class="fas fa-briefcase"></i> <span class="text-yellow-400">Experience</span></h2>
+        <div class="space-y-8">
+            <!-- Example of timeline container -->
+            <div class="flex flex-col md:flex-row items-start md:items-center">
+                <div class="bg-yellow-400 text-gray-900 px-6 py-2 rounded-lg md:rounded-r-none md:rounded-l-lg w-full md:w-1/3 text-center md:text-left">
+                    <h3 class="font-semibold text-lg">Self Employed</h3>
+                </div>
+                <div class="bg-gray-800 text-gray-400 px-6 py-4 rounded-lg w-full md:w-2/3">
+                    <h4 class="font-semibold text-md">Full Stack web Developer</h4>
+                    <p>2024 - present</p>
+                </div>
+            </div>
+            <!-- Add more experiences here -->
+
+  
+
+<!-- Footer section starts -->
+<section id="footer" class="py-12 bg-gray-800">
+    <div class="container mx-auto px-6">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div>
+                <h3 class="text-lg font-semibold text-yellow-400 mb-4">Muhammad Faizan Akram</h3>
+                <p class="text-gray-400">
+                    Thank you for visiting my personal portfolio website. Connect with me over socials. Keep Rising 🚀. Connect with me over live chat!
+                </p>
+            </div>
+            <div>
+                <h3 class="text-lg font-semibold text-yellow-400 mb-4">Quick Links</h3>
+                <ul class="space-y-2">
+                    <li><a href="#home" class="hover:underline">Home</a></li>
+                    <li><a href="#about" class="hover:underline">About</a></li>
+                    <li><a href="#skills" class="hover:underline">Skills</a></li>
+                    <li><a href="#work" class="hover:underline">Code</a></li>
+                    <li><a href="#experience" class="hover:underline">Experience</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="text-lg font-semibold text-yellow-400 mb-4">Contact Info</h3>
+                <p class="text-gray-400"><i class="fas fa-envelope mr-2"></i>mfaizanakram536@gmail.com</p>
+                <p class="text-gray-400"><i class="fa-brands fa-whatsapp"></i>+923106800495</p>
+            </div>
+        </div>
+    </div>
+    <h1 class="text-center mt-12 text-gray-500">© Copyright 2024. Muhammad Faizan Akram.</h1>
+</section>
+<!-- Footer section ends -->
+
+<!-- Scroll top button -->
+<a href="#home" aria-label="ScrollTop" class="fixed bottom-6 right-6 p-3 bg-yellow-400 text-gray-900 rounded-full shadow-lg hover:bg-yellow-500 transition"><i class="fas fa-angle-up text-xl"></i></a>
+
+<!-- JavaScript Libraries -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.js" integrity="sha512-tQQXRDB2wEmuJGtFrmmoFYzNTq8StA1XJrfO0OQbbTxd9G0CwaTDL6/C1y805IlvBVrMwOqob1kf6r/2U5XXVg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="./assets/js/particles.min.js"></script>
+<script src="./assets/js/app.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.1/vanilla-tilt.min.js" integrity="sha512-wC/cunGGDjXSl9OHUH0RuqSyW4YNLlsPwhcLxwWW1CR4OeC2E1xpcdZz2DeQkEmums41laI+eGMw95IJ15SS3g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://unpkg.com/scrollreveal"></script>
+<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
